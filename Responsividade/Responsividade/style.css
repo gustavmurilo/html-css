@@ -1,0 +1,37 @@
+table, td {
+    border:2px solid black;
+}
+
+body {
+    background-color: black;
+
+}
+
+@media (min-width: 1000px) {
+    body {
+        background-color: blue;
+    }
+    h1, td {
+        color: white
+
+    }
+}
+
+@media (max-width:600px) {
+
+    body {
+        background-color: red;
+    }
+    h1 {
+        color: black;
+    }
+
+}
+
+@media only print {
+    h1 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+}
+
