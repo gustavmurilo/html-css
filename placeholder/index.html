@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet"/>
+    <link href="https://github.com/necolas/normalize.css/" rel="stylesheet"/>
     <title>Login Gustavo</title>
 </head>
 <body>
     <form method="POST">
-        <input type="text" name="usuario" placeholder="Usuário" autofocus size="10"/><br/><br/>
+        <input type="text" name="email" required placeholder="Usuário" autofocus size="20" autocomplete="only"/><br/><br/>
 
         Senha:<br/>
         <input type="password" name="senha" maxlength="4"/><br/><br>
 
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar"/>
     </form>
 </body>
 </html>
